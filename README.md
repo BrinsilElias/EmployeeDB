@@ -21,7 +21,7 @@ EmployeeDB is an employee dashboard project that provides users with a comprehen
 ## 💻 Technologies
 - [Angular](https://angular.io/docs)
 - [Express](https://expressjs.com/)
-- [Nodeejs](https://nodejs.org/en/docs/) 
+- [Nodejs](https://nodejs.org/en/docs/) 
 - [MongoDB](https://www.mongodb.com/)
 
 ---
