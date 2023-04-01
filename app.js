@@ -15,7 +15,7 @@ const path=require('path');
 app.use(Express.static(path.join(__dirname+'/dist/FrontEnd')));
 
 // Task 2: create mongoDB connection
-Mongoose.connect("mongodb+srv://brinsilelias0592:TbuIWUXP5bNTpwjX@cluster0.vgnd5gl.mongodb.net/EmployeeDB?retryWrites=true&w=majority", {useNewUrlParser: true})
+Mongoose.connect("mongodb+srv://<Insert-MongoDB-Atlas-Credentials>@cluster0.vgnd5gl.mongodb.net/EmployeeDB?retryWrites=true&w=majority", {useNewUrlParser: true})
 
 
 //Task 3 : write api with error handling and appropriate api mentioned in the TODO below
